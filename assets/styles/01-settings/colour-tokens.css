@@ -1,0 +1,12 @@
+/* Colour Tokens */
+:root {
+    --color-bg-primary: var(--primary-blue950);
+    --color-bg-secundary-fixed: var(--primary-purple500);
+    --color-bg-secundary-fixed-dim: var(--alpha-purple500-60);
+    --color-bg-surface: var(--primary-blue950);
+    --color-bg-surface-lowest: var(--primary-navy950);
+    --color-text-on-primary: var(--neutral-white);
+    --color-text-on-surface: var(--neutral-white);
+    --color-text-on-surface60: var(--neutral-white60);
+    --color-text-on-surface75: var(--neutral-white75);
+}

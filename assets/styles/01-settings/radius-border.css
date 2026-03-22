@@ -1,0 +1,16 @@
+/* Radius & Border */
+:root {
+    --border-1: 0.0625rem;
+    --border-2: 0.125rem;
+
+    --radius-0: 0rem;
+    --radius-4: 0.25rem;
+    --radius-8: 0.5rem;
+    --radius-12: 0.75rem;
+    --radius-16: 1rem;
+    --radius-20: 1.25rem;
+    --radius-28: 1.75rem;
+    --radius-32: 2rem;
+    --radius-48: 3rem;
+    --radius-50: 3.125rem;
+}

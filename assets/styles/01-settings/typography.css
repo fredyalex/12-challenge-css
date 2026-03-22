@@ -1,0 +1,17 @@
+/* Typography */
+:root {
+    /* font size */
+    --typography-size-body-large: 0.9375rem;
+    --typography-size-headline-medium: 1.8125rem;
+    --typography-size-headline-large: 2.25rem;
+    --typography-size-title-large: 1.5rem;
+
+    /* font family */
+    --typography-family-body: 'Inter', sans-serif;
+    --typography-family-headline: 'Lexend Deca', sans-serif Deca;
+    --typography-family-title: 'Lexend Deca', sans-serif Deca;
+
+    /* weight */
+    --typography-weight-bold: 700;
+    --typography-weight-regular: 400;
+}

@@ -1,1 +1,5 @@
 /* Utilities */
+
+.u-text-bold {
+    color: var(--color-bg-secundary-fixed);
+}

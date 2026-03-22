@@ -1,0 +1,22 @@
+.o-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.o-container {
+    width: 100%;
+    margin: 0 var(--spacing-16);
+}
+
+@media (min-width: 768px) {
+    .o-container {
+        margin: 0 var(--spacing-24);
+    }
+}
+
+@media (min-width: 1440px) {
+    .o-container {
+        margin: 0 var(--spacing-96);
+    }
+}

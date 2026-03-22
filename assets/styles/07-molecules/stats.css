@@ -1,0 +1,110 @@
+.m-stats-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-24);
+    border-radius: var(--radius-8);
+    overflow: hidden;
+    background-color: var(--color-bg-surface);
+}
+
+.m-stats-card__header {
+    aspect-ratio: 4/3;
+    width: 100%;
+    min-height: 200px;
+    background-color: var(--color-bg-secundary-fixed);
+    background-image: url('../../images/image-header-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+.m-stats-card__body {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-24);
+    padding: var(--spacing-24);
+}
+
+.m-stats-card__title {
+    font-size: var(--typography-size-headline-medium);
+    font-family: var(--typography-family-headline), sans-serif;
+    font-weight: var(--typography-weight-bold);
+    color: var(--color-text-on-surface);
+    text-align: center;
+}
+
+.m-stats-card__title .u-text-bold {
+    color: var(--color-bg-secundary-fixed);
+}
+
+.m-stats-card__description {
+    padding: 0 var(--spacing-16);
+    color: var(--color-text-on-surface75);
+    text-align: center;
+    line-height: 1.7;
+}
+
+.m-stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-24);
+    padding: var(--spacing-24);
+}
+
+.m-label-stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-4);
+}
+
+.m-label-stats__title {
+    font-family: var(--typography-family-title), sans-serif;
+    font-size: var(--typography-size-title-large);
+    font-weight: var(--typography-weight-bold);
+}
+
+.m-label-stats__text {
+    color: var(--color-text-on-surface60);
+    text-transform: uppercase;
+}
+
+@media (min-width: 1024px) {
+    .m-stats-card {
+        flex-direction: row-reverse;
+        max-width: 1110px;
+    }
+
+    .m-stats-card__header {
+        aspect-ratio: 540/446;
+        width: 50%;
+        background-image: url('../../images/image-header-desktop.jpg');
+    }
+
+    .m-stats-card__body {
+        width: 50%;
+        padding: var(--spacing-48);
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    .m-stats-card__title, .m-stats-card__description {
+        padding: 0;
+        text-align: left;
+    }
+
+    .m-stats {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0;
+        margin-top: var(--spacing-24);
+        width: 100%;
+    }
+
+    .m-label-stats {
+        align-items: flex-start;
+    }
+}

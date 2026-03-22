@@ -1,0 +1,9 @@
+.og-stats-card{
+    max-width: 343px;
+}
+
+@media (min-width: 1024px) {
+    .og-stats-card {
+        max-width: 971px;
+    }
+}

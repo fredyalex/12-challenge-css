@@ -1,1 +1,23 @@
 /* Elements */
+
+body, main, div, article, p, span, h5, img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--color-bg-surface-lowest);
+    font-family: var(--typography-family-body), sans-serif;
+    font-size: var(--typography-size-body-large);
+    font-weight: var(--typography-weight-regular);
+    color: var(--color-text-on-surface);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
